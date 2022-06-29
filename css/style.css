@@ -109,6 +109,11 @@ button {
   background-color: #0087BE;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* HEADER */
 
 header {
