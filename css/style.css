@@ -87,6 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* GENERAL STYLES */
 body {
   font-family: 'Merriweather', serif;
   color: #333332;
@@ -96,6 +97,10 @@ h1, h2, h3 {
   font-family: 'Libre Baskerville', serif;
 }
 
+h2 {
+  float: center;
+}
+
 a {
   color: #0087BE;
 }
@@ -103,6 +108,25 @@ a {
 button {
   background-color: #0087BE;
 }
+
+
+/* HEADER */
+
+header {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 
 /* ==========================================================================
    Helper classes
