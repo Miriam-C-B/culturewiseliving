@@ -97,10 +97,6 @@ h1, h2, h3 {
   font-family: 'Libre Baskerville', serif;
 }
 
-h1 {
-  float: center;
-}
-
 a {
   color: #0087BE;
 }
@@ -121,6 +117,8 @@ header {
   padding: 50px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav {
@@ -128,8 +126,47 @@ header {
   justify-content: center;
 }
 
+.nav li a {
+  text-decoration: none;
+  color: #0087BE;
+  font-size: 1.5em;
+}
 
+/* BODY OF TEXT */
 
+.text-body {
+  margin: 50px;
+  padding: 50px; 
+}
+
+.text-body h1 {
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.text-body p {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-bottom: 40px;
+}
+
+.text-body p a {
+  text-decoration: underline;
+  color: #0087BE;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
 
 
 /* ==========================================================================
@@ -219,6 +256,45 @@ header {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media only screen and (max-width: 1000px) {
+  /* HEADER */
+  header {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .nav li a {
+    margin-bottom: 10px;
+  }
+
+  /* Text Body */
+  .text-body {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .text-body h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  
+  .text-body p {
+    margin-bottom: 10px;
+  }
+  
+  /* FOOTER */
+footer p {
+  font-size: 1em;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
