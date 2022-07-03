@@ -134,14 +134,24 @@ header {
 
 /* BODY OF TEXT */
 
+main h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .text-body {
   margin: 50px;
-  padding: 50px; 
+  padding: 30px; 
 }
 
 .text-body h1 {
   margin-bottom: 50px;
   padding-bottom: 10px;
+}
+
+.text-body h2 {
+  text-align: center;
+  margin: 60px 0 40px 0;
 }
 
 .text-body p {
@@ -269,12 +279,22 @@ footer p {
   }
 
   /* Text Body */
+  main h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+  
   .text-body {
     margin: 10px;
     padding: 10px;
   }
 
   .text-body h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+
+  .text-body h2 {
     margin-bottom: 10px;
     padding-bottom: 0px;
   }
