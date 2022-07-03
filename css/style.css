@@ -90,6 +90,7 @@ textarea {
 /* GENERAL STYLES */
 .container {
   font-family: 'Merriweather', serif;
+  font-weight: 300;
   color: #333332;
 }
 
