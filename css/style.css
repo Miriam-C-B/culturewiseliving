@@ -98,6 +98,11 @@ h1, h2 {
   font-family: 'Libre Baskerville', serif;
 }
 
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #355473;
+}
+
 a {
   color: #0087BE;
 }
@@ -140,17 +145,20 @@ main h1 {
   margin-bottom: 50px;
 }
 
-.text-body {
+.text-body,
+.blog-text {
   margin: 50px;
   padding: 30px; 
 }
 
-.text-body h1 {
+.text-body h1,
+.blog-text h1 {
   margin-bottom: 50px;
   padding-bottom: 10px;
 }
 
-.text-body h2 {
+.text-body h2,
+.blog-text h2 {
   text-align: center;
   margin: 60px 0 40px 0;
 }
@@ -161,10 +169,34 @@ main h1 {
   margin-bottom: 40px;
 }
 
-.text-body p a {
+.text-body p a,
+.blog-text p a {
   text-decoration: underline;
   color: #0087BE;
 }
+
+/* BLOG TEXT */
+
+.blog-text img {
+  margin: 10px 0 40px 0;
+  padding-bottom: 20px;
+}
+
+h3 span {
+  font-size: 0.75em;
+}
+
+h3 i {
+  font-size: 0.75em;
+  color: #355473;
+}
+
+.blog-text p {
+  font-size: 1.25em;
+  line-height: 1.75em;
+  text-align: justify;
+}
+
 
 /* FOOTER */
 footer {
@@ -174,7 +206,7 @@ footer {
 }
 
 footer p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
