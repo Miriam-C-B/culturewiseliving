@@ -201,11 +201,13 @@ h3 i {
   font-style: italic;
 }
 
-.blog-text ul {
+.blog-text ul,
+.blog-text ol {
   margin-left: 30px;
 }
 
-.blog-text ul li {
+.blog-text ul li,
+.blog-text ol {
   font-size: 1.25em;
   line-height: 1.75em;
 }
