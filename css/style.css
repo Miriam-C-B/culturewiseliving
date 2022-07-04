@@ -212,6 +212,11 @@ h3 i {
   line-height: 1.75em;
 }
 
+.indented-text {
+  text-align: center;
+  line-height: 2em;
+}
+
 
 /* FOOTER */
 footer {
