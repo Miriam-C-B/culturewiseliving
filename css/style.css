@@ -217,6 +217,9 @@ h3 i {
   line-height: 2em;
 }
 
+.bold {
+  font-weight: 700;
+}
 
 /* FOOTER */
 footer {
