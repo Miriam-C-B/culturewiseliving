@@ -222,6 +222,51 @@ h3 i {
   font-weight: 700;
 }
 
+/* BLOG PAGE */
+.blog-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-box {
+  max-width: 800px;
+  padding: 50px 25px 40px 25px;
+  margin: 20px;
+}
+
+.blog-box p {
+  padding-bottom: 20px;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.blog-box-button {
+  background-color: #0087BE;
+  border-radius: 5px;
+  border: 2px solid #0087BE;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-box h1 {
+  text-align: left;
+}
+
+.blog-box h1 a,
+.blog-box-button a {
+  text-decoration: none;
+}
+
+.blog-box h1 a {
+  color: #333332;
+}
+
+.blog-box-button a {
+  color: white;
+}
+
 /* FOOTER */
 footer {
   display: flex;
