@@ -268,6 +268,10 @@ h3 i {
   color: white;
 }
 
+.blog-box-button a:hover {
+  color: rgb(191, 216, 238);
+}
+
 /* FOOTER */
 footer {
   display: flex;
