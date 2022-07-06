@@ -184,6 +184,7 @@ main h1 {
 
 h3 span {
   font-size: 0.75em;
+  white-space: pre;
 }
 
 h3 i {
